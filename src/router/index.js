@@ -4,23 +4,18 @@ import VueRouter from 'vue-router'
 import AppPage from '../views/AppPage.vue'
 
 const TestHome = () => import("../views/test/TestHome.vue")
-const Home = () => import("../views/Home.vue")
 
 Vue.use(VueRouter)
 
 const routes = [
     {
         path: '',
-        redirect: "home"
+        redirect: "test"
     },
     {
         path: "",
         component: AppPage,
         children: [
-            {
-                path: "home",
-                component: Home,
-            },
             {
                 path: "test",
                 component: TestHome,
