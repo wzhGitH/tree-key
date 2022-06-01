@@ -1,0 +1,20 @@
+{
+    "result": {
+        "loaction": {
+            "left": 100,
+            "top": 100,
+            "right": 100,
+            "bottom": 100
+        },
+        "num": 10001,
+        "words": "测试测试",
+        "data": {
+            "com": "测试正常这次测试哇擦",
+            "blob": {
+                "content": {
+                    "text": "aaaaaa"
+                }
+            }
+        }
+    }
+}
