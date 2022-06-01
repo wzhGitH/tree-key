@@ -1,5 +1,5 @@
-# test
-
+# tree-key
+根据后台传过来的json， 配置需要显示的字段。
 ## Project setup
 ```
 yarn install
